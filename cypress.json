@@ -1,0 +1,31 @@
+{
+    "baseUrl": "https://www.petz.com.br/blog/",
+    "execTimeout": 30000,
+    "defaultCommandTimeout": 30000,
+    "pageLoadTimeout": 30000,
+    "taskTimeout": 30000,
+    "responseTimeout": 30000,
+    "requestTimeout": 30000,
+    "video" : false,
+    "videoCompression": 15,
+    "reporterOptions": {
+      "reportDir": "cypress/reports",
+      "reportFilename": "Relatório-Testes",
+      "reportName": "Relatório",
+      "reportTitle": "Relatório de Testes",
+      "reportPageTitle": "Teste de Testes",
+      "takePassedScreenshot": false,
+      "clearOldScreenshots": false,
+      "shortScrFileNames": false,
+      "inline": false,
+      "charts": true,
+      "autoOpen": true,
+      "jsonReport": true,
+      "multiReport": true,
+      "timestamp": "dd-mm-yyyy_hh-mm"
+    },
+  "env":
+    {
+      "RETRIES": 2
+    }
+}
