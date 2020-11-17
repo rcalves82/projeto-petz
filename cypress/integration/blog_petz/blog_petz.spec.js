@@ -2,12 +2,20 @@
 
 describe('Acesso Blog Petz', () => {
     beforeEach(() => {
+        cy.clearCookies()
+        cy.clearLocalStorage()
         cy.acesso_blog_petz()
+        
     })
     
     // Esse cenário tem como objetvo acessar a tela Adoção
     it('Acessando a tela Adoção', () => {
         cy.acessando_tela_adocao()
+    })
+
+    // Esse cenário tem como objetvo acessar a tela de Eventos
+    it('Acessando a tela de Eventos', () => {
+       cy.acessando_tela_eventos()
     })
 
     // Esse cenário tem como objetvo através do blog acessar a pagina Nossas Lojas
@@ -16,7 +24,7 @@ describe('Acesso Blog Petz', () => {
     })
 
     // Esse cenário tem como objetvo através do blog acessar a pagina Atendimento
-    it.only('Acessando a pagina de Atendimento', () => {
+    it('Acessando a pagina de Atendimento', () => {
         cy.acessando_pagina_atendimento()
     })
 

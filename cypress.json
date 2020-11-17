@@ -1,5 +1,4 @@
 {
-    "baseUrl": "https://www.petz.com.br/blog/",
     "execTimeout": 30000,
     "defaultCommandTimeout": 30000,
     "pageLoadTimeout": 30000,
