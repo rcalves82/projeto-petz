@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('Acesso Blog Petz', () => {
+describe('Navegando no Blog Petz', () => {
     beforeEach(() => {
         cy.clearCookies()
         cy.clearLocalStorage()
